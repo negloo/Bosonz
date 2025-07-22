@@ -1,0 +1,19 @@
+{
+  "questLineIDLow:4": -8917138293417926579,
+  "questLineIDHigh:4": -1042554003009616253,
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "name:8": "Logistics",
+      "icon:10": {
+        "id:8": "hbm:tile.conveyor",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "Moving, storing, reading and reacting to stuff"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "questIDHigh:4": -4832578547825882736,
+  "preRequisites:9": {},
+  "questIDLow:4": -5270288742598394720,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:trapped_chest",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Nitan chests",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "These chests spawn in the world at the same coordinates as those in the tasks.\nThey contain some rare powders useful in making NITAN blend. Particularly, the niobium can be used to skip some of the progression if you want.\n!!!Be careful when taking or breaking the chest they might contain very dangerous powders!!! \n\nThey might also contain nothing or not even be there if they\u0027ve already been discovered."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "visible:1": 0,
+      "invert:1": 0,
+      "range:3": 2,
+      "index:3": 0,
+      "structure:8": "",
+      "hideInfo:1": 0,
+      "posX:3": 10000,
+      "posY:3": 250,
+      "posZ:3": 0,
+      "biome:3": -1,
+      "name:8": "New Location",
+      "dimension:3": 0,
+      "taxiCabDist:1": 0,
+      "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "visible:1": 0,
+      "invert:1": 0,
+      "range:3": 2,
+      "index:3": 1,
+      "structure:8": "",
+      "hideInfo:1": 0,
+      "posX:3": 10000,
+      "posY:3": 250,
+      "posZ:3": 10000,
+      "biome:3": -1,
+      "name:8": "New Location",
+      "dimension:3": 0,
+      "taxiCabDist:1": 0,
+      "taskID:8": "bq_standard:location"
+    },
+    "2:10": {
+      "visible:1": 0,
+      "invert:1": 0,
+      "range:3": 2,
+      "index:3": 2,
+      "structure:8": "",
+      "hideInfo:1": 0,
+      "posX:3": 0,
+      "posY:3": 250,
+      "posZ:3": 10000,
+      "biome:3": -1,
+      "name:8": "New Location",
+      "dimension:3": 0,
+      "taxiCabDist:1": 0,
+      "taskID:8": "bq_standard:location"
+    },
+    "3:10": {
+      "visible:1": 0,
+      "invert:1": 0,
+      "range:3": 2,
+      "index:3": 3,
+      "structure:8": "",
+      "hideInfo:1": 0,
+      "posX:3": -10000,
+      "posY:3": 250,
+      "posZ:3": 0,
+      "biome:3": -1,
+      "name:8": "New Location",
+      "dimension:3": 0,
+      "taxiCabDist:1": 0,
+      "taskID:8": "bq_standard:location"
+    },
+    "4:10": {
+      "visible:1": 0,
+      "invert:1": 0,
+      "range:3": 2,
+      "index:3": 4,
+      "structure:8": "",
+      "hideInfo:1": 0,
+      "posX:3": 0,
+      "posY:3": 250,
+      "posZ:3": -10000,
+      "biome:3": -1,
+      "name:8": "New Location",
+      "dimension:3": 0,
+      "taxiCabDist:1": 0,
+      "taskID:8": "bq_standard:location"
+    },
+    "5:10": {
+      "visible:1": 0,
+      "invert:1": 0,
+      "range:3": 2,
+      "index:3": 5,
+      "structure:8": "",
+      "hideInfo:1": 0,
+      "posX:3": -10000,
+      "posY:3": 250,
+      "posZ:3": -10000,
+      "biome:3": -1,
+      "name:8": "New Location",
+      "dimension:3": 0,
+      "taxiCabDist:1": 0,
+      "taskID:8": "bq_standard:location"
+    },
+    "6:10": {
+      "visible:1": 0,
+      "invert:1": 0,
+      "range:3": 2,
+      "index:3": 6,
+      "structure:8": "",
+      "hideInfo:1": 0,
+      "posX:3": -10000,
+      "posY:3": 250,
+      "posZ:3": 10000,
+      "biome:3": -1,
+      "name:8": "New Location",
+      "dimension:3": 0,
+      "taxiCabDist:1": 0,
+      "taskID:8": "bq_standard:location"
+    },
+    "7:10": {
+      "visible:1": 0,
+      "invert:1": 0,
+      "range:3": 2,
+      "index:3": 7,
+      "structure:8": "",
+      "hideInfo:1": 0,
+      "posX:3": 10000,
+      "posY:3": 250,
+      "posZ:3": -10000,
+      "biome:3": -1,
+      "name:8": "New Location",
+      "dimension:3": 0,
+      "taxiCabDist:1": 0,
+      "taskID:8": "bq_standard:location"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "hbm:item.nugget",
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

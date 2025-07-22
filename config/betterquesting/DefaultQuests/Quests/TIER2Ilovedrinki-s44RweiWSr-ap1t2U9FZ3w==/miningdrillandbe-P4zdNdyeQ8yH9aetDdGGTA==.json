@@ -1,0 +1,85 @@
+{
+  "questIDHigh:4": 4579278144533316556,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -826129998090384385,
+      "questIDLow:4": -6395030766416260122
+    }
+  },
+  "questIDLow:4": -8649823147592153524,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "hbm:tile.machine_excavator",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "mining drill and bedrock",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The large mining drill can be used to mine a 3x3 hole in the ground... This would be underwhelming if it wasn\u0027t for it\u0027s second ability: mining bedrock ore.\n\nNote. you should probably wait before mining bedrock ores because it is very annoying and expensive but you CAN start right now if you want to stockpile or really need some infinite metal for some reason.\n\nyou can use a survey scanner to find these ore or just break depth rock until you find them. Depth rock can only be destroyed by explosives. then place your drill anywhere above the ore. the drill bit and acid required is determined by the tier of the bedrock ore with tier 1 needing no acid.\n\nThen activate the drill and let it cook for a while. Mining bedrock is very long.\n\n"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "hbm:tile.machine_excavator",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "hbm:item.survey_scanner",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "hbm:item.cap_nuka",
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

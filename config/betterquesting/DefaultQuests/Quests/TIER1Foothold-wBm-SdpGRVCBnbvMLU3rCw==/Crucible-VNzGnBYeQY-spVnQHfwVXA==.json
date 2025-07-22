@@ -1,0 +1,103 @@
+{
+  "questIDHigh:4": 6114980767750570383,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -1501601206466621680,
+      "questIDLow:4": -6955545659630310651
+    }
+  },
+  "questIDLow:4": -6006295777637558948,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "hbm:tile.machine_crucible",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Crucible",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "[warn]YOU CAN PRESS F1 ON THE CRUCIBLE IN INVENTORY OR NEI FOR A TUTORIAL![/warn]\n\nThe crucible is pretty indispensible but can be quite annoying to setup in the early game so I won\u0027t blame you if you wait until you really need it to make it. It is, however, very powerful and fuel efficient when done right and in multiples.\n\nIt does:\n\n1- Alloying just like the blast furnace.\n\n2- Ore doubling + byproducts.\n\n3- Casting.\n\nThe first two functions are pretty self-explanatory but you havent encountered the third yet. Casting will be explained in a follow-up quest. For now acquire a crucible and place it over a source of TU (thermal units). Then if you fuel your TU source it should transfer to the crucible and allow for smelting!"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "hbm:tile.machine_crucible",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "hbm:tile.heater_firebox",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "hbm:tile.machine_crucible",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "hbm:tile.heater_oven",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "hbm:item.cap_nuka",
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "hbm:item.ingot_firebrick",
+          "Count:3": 20,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

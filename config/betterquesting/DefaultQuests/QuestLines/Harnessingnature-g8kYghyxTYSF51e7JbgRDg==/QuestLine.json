@@ -1,0 +1,19 @@
+{
+  "questLineIDLow:4": -8797966885741653746,
+  "questLineIDHigh:4": -8950595837315953276,
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "name:8": "Harnessing nature",
+      "icon:10": {
+        "id:8": "Forestry:treealyzer",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "Forestry, bees and more"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": 3964105697317505500,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 8050700057425299390,
+      "questIDLow:4": -4952585469539498545
+    }
+  },
+  "questIDLow:4": -7889428133583048049,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "hbm:item.fluid_icon",
+        "Count:3": 1,
+        "Damage:2": 13,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "bitumen",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Not particularly useful at this stage. You can make asphalt and oil tar from it or maybe coke if you have a lot of bitumen.\n\nput it in a tank or make asphalt"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

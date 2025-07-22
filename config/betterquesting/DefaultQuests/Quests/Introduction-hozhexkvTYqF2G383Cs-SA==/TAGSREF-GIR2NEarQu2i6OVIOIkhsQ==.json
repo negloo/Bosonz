@@ -1,0 +1,37 @@
+{
+  "questIDHigh:4": 1766666920732082925,
+  "preRequisites:9": {},
+  "questIDLow:4": -6707859546619436623,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "HIDDEN",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:nether_star",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "TAGS REF.",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "you should not see this ;)\n\n[img height\u003d]bosonz:textures/gui/bq_home.png[/img]\n\n[imgheight\u003d100]\n\na[url]a[/url]\n\n[warn]a[/warn]\n\na[note]a[/note]\n\n[quest]a[/quest]\n\n§0a\n\n§1a\n\na§2\n\n\na\n\n§3a\n\n\n\na§6a§ea§fa§da§ma§la§na§oa§r§na§la§ka§ea§e§ka\n§3a"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

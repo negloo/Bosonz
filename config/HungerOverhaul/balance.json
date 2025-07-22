@@ -1,0 +1,21 @@
+{
+
+	"foods": [
+		{
+			"name": "minecraft:cooked_beef",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.5
+		},{
+			"name": "etfuturum:mutton_cooked",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.5
+		},{
+			"name": "minecraft:cooked_porkchop",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.5
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+  "questIDHigh:4": 2770509830015765481,
+  "preRequisites:9": {},
+  "questIDLow:4": -8586365636148534676,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "COMPLETED",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "hbm:item.heart_fab",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Credits",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Big thanks to all the devs who made the mods included in this pack!\n\nSpecial thanks to the Gregtech: New Horizons team. GTNH ran so BOSONZ could walk.\n\nA file with links to the repos and/or Curseforge of all the mods included in this pack should be in the mods folder (if im not lazy)."
+    }
+  },
+  "tasks:9": {},
+  "rewards:9": {}
+}

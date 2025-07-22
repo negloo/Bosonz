@@ -1,0 +1,37 @@
+{
+  "questIDHigh:4": 671454550775711318,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3613872271798286128,
+      "questIDLow:4": -5758790842931916680
+    }
+  },
+  "questIDLow:4": -4862122417273137411,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "hbm:tile.machine_zirnox",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "ZIRNOX",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Chose either this or the PWR. The ZIRNOX is easier to make and use but can meltdown way more dangerously than the PWR."
+    }
+  },
+  "tasks:9": {},
+  "rewards:9": {}
+}

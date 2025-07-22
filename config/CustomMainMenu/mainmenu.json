@@ -1,0 +1,170 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:Bosonz_title.png",
+            "posX" : -150,
+            "posY" : 30,
+            "width" : 300,
+            "height" : 35,
+            "alignment" : "top_center"
+        },
+        "bar_insertsignificantnamehere":
+        {
+            "image" : "mainmenu:bar.png",
+            "posX" : -240,
+            "posY" : -65,
+            "width" : 500,
+            "height" : 70,
+            "alignment" : "bottom_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "",
+            "posX" : -207.5,
+            "posY" : 150,
+            "width" : 40,
+            "height" : 51,
+            "texture" : "mainmenu:play.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "",
+            "posX" : -92.5,
+            "posY" : 150,
+            "width" : 60,
+            "height" : 51,
+            "texture" : "mainmenu:multiplayer.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },    
+        "options":
+        {
+            "text" : "",
+            "posX" : 37.5,
+            "posY" : 150,
+            "width" : 52,
+            "height" : 51,
+            "texture" : "mainmenu:settings.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "",
+            "posX" : 162.5,
+            "posY" : 150,
+            "width" : 48,
+            "height" : 51,
+            "texture" : "mainmenu:quit.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },  
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -239,
+            "posY" : -66,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -165,
+            "posY" : 0,
+            "color" : -1,
+            "alignment" : "top_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -110,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+
+        "play":
+        {
+            "text" : "singleplayer",
+            "posX" : -212,
+            "posY" : -63,
+            "color" : -1,
+            "alignment" : "bottom_center"
+        },
+        
+        "multi":
+        {
+            "text" : "multiplayer",
+            "posX" : -84,
+            "posY" : -63,
+            "color" : -1,
+            "alignment" : "bottom_center"
+        },
+
+        "options":
+        {
+            "text" : "settings",
+            "posX" : 45,
+            "posY" : -63,
+            "color" : -1,
+            "alignment" : "bottom_center"
+        },
+
+        "off":
+        {
+            "text" : "quit",
+            "posX" : 177.5,
+            "posY" : -63,
+            "color" : -1,
+            "alignment" : "bottom_center"
+        }
+    },
+    
+    "other":
+    {
+		"background": {
+			"image": "",
+			"slideshow": {
+				"images": [
+					"mainmenu:background1.png",
+					"mainmenu:background2.png"
+				],
+				"displayDuration": 150,
+				"fadeDuration": 40
+			}
+		}
+    }
+
+}

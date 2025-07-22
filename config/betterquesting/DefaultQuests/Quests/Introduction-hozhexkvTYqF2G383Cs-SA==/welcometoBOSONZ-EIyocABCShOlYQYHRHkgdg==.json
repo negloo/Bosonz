@@ -1,0 +1,37 @@
+{
+  "questIDHigh:4": 1192513200340486675,
+  "preRequisites:9": {},
+  "questIDLow:4": -6529931356427181962,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "hbm:item.particle_higgs",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "welcome to BOSONZ",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "BOSONZ is a VOLTZ adjacent modpack based on HBM\u0027s NTM (nuclear tech mod).\n\nThe focus in on progressing trough technology while \"protecting\" yourself from your neighbors or destroying them for their wealth and territory.\n\n[warn]I highly recommend playing this pack in PVP multiplayer it\u0027s designed this way. If you want a solo (and much better experience) go play GTNH or (insert generic create modpack here).[/warn]\n\nI recommand exploring the different questlines quickly then heading to the main quests (TIER 1 to X).\n"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

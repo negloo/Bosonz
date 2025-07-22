@@ -1,0 +1,85 @@
+{
+  "questIDHigh:4": -5258356601441203798,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 5627292853452096966,
+      "questIDLow:4": -6965183209829296669
+    }
+  },
+  "questIDLow:4": -4996936607417486834,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "hbm:item.ammo_standard",
+        "Count:3": 1,
+        "Damage:2": 9,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "357. ammo",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "I highly recommend FMJ express since it does 150% damage and pierce armor.\n\nI\u0027ll also allow normal FMJ in case you dont have much cordite or balistite but beware as these do 80% damage with armor piercing."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "hbm:item.ammo_standard",
+          "Count:3": 64,
+          "Damage:2": 9,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "hbm:item.ammo_standard",
+          "Count:3": 64,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "hbm:item.ammo_standard",
+          "Count:3": 32,
+          "Damage:2": 9,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

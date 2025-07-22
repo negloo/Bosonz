@@ -1,0 +1,68 @@
+{
+  "questIDHigh:4": -6432639313087281619,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 6281179731777965852,
+      "questIDLow:4": -7693431373260278843
+    }
+  },
+  "questIDLow:4": -8490241285543527395,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "hbm:item.ammo_standard",
+        "Count:3": 1,
+        "Damage:2": 29,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "7.62mm ammo",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "39? 51? 54? Who knows!\n\nIts clearly 39."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "hbm:item.ammo_standard",
+          "Count:3": 64,
+          "Damage:2": 29,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "hbm:item.ammo_standard",
+          "Count:3": 32,
+          "Damage:2": 29,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
