@@ -432,7 +432,7 @@
     },
     {
       "inputs": [
-        ["dict","plateTitanium",2]
+        ["dict","plateTitanium",4]
       ],
       "outputs": [
         ["hbm:item.shell",1,2200,1.0]
@@ -443,7 +443,7 @@
     },
     {
       "inputs": [
-        ["dict","plateCopper",2]
+        ["dict","plateCopper",4]
       ],
       "outputs": [
         ["hbm:item.shell",1,2900,1.0]
@@ -454,7 +454,7 @@
     },
     {
       "inputs": [
-        ["dict","plateAluminum",2]
+        ["dict","plateAluminum",4]
       ],
       "outputs": [
         ["hbm:item.shell",1,1300,1.0]
@@ -465,7 +465,7 @@
     },
     {
       "inputs": [
-        ["dict","plateSteel",2]
+        ["dict","plateSteel",4]
       ],
       "outputs": [
         ["hbm:item.shell",1,30,1.0]
@@ -476,7 +476,7 @@
     },
     {
       "inputs": [
-        ["dict","plateWeaponSteel",2]
+        ["dict","plateWeaponSteel",4]
       ],
       "outputs": [
         ["hbm:item.shell",1,50,1.0]
@@ -487,7 +487,7 @@
     },
     {
       "inputs": [
-        ["dict","plateSaturnite",2]
+        ["dict","plateSaturnite",4]
       ],
       "outputs": [
         ["hbm:item.shell",1,34,1.0]
@@ -498,7 +498,7 @@
     },
     {
       "inputs": [
-        ["dict","ingotIron",2]
+        ["dict","plateIron",3]
       ],
       "outputs": [
         ["hbm:item.pipe",1,2600,1.0]
@@ -509,7 +509,7 @@
     },
     {
       "inputs": [
-        ["dict","ingotCopper",2]
+        ["dict","plateCopper",3]
       ],
       "outputs": [
         ["hbm:item.pipe",1,2900,1.0]
@@ -520,7 +520,7 @@
     },
     {
       "inputs": [
-        ["dict","ingotAluminum",2]
+        ["dict","plateAluminum",3]
       ],
       "outputs": [
         ["hbm:item.pipe",1,1300,1.0]
@@ -531,7 +531,7 @@
     },
     {
       "inputs": [
-        ["dict","ingotLead",2]
+        ["dict","plateLead",3]
       ],
       "outputs": [
         ["hbm:item.pipe",1,8200,1.0]
@@ -542,7 +542,7 @@
     },
     {
       "inputs": [
-        ["dict","ingotSteel",2]
+        ["dict","plateSteel",3]
       ],
       "outputs": [
         ["hbm:item.pipe",1,30,1.0]
@@ -553,7 +553,7 @@
     },
     {
       "inputs": [
-        ["dict","ingotDuraSteel",2]
+        ["dict","plateDuraSteel",3]
       ],
       "outputs": [
         ["hbm:item.pipe",1,33,1.0]
@@ -564,7 +564,7 @@
     },
     {
       "inputs": [
-        ["dict","ingotRubber",2]
+        ["dict","ingotRubber",3]
       ],
       "outputs": [
         ["hbm:item.pipe",1,20003,1.0]
@@ -622,8 +622,8 @@
     {
       "inputs": [
         ["item","hbm:item.motor"],
-        ["dict","ingotAnyPlastic"],
-        ["dict","ingotWorkersAlloy"],
+        ["dict","ingotAnyPlastic",2],
+        ["dict","ingotWorkersAlloy",2],
         ["item","hbm:item.coil_gold_torus"]
       ],
       "outputs": [
@@ -675,7 +675,7 @@
     {
       "inputs": [
         ["dict","ingotSteel",8],
-        ["dict","Copper",8],
+        ["dict","plateCopper",4],
         ["item","hbm:item.motor",2],
         ["item","hbm:item.circuit",4]
       ],
@@ -719,7 +719,7 @@
       "inputs": [
         ["item","minecraft:furnace"],
         ["dict","plateSteel",8],
-        ["dict","Copper",4]
+        ["dict","ingotCopper",8]
       ],
       "outputs": [
         ["hbm:tile.heater_firebox",1.0]
@@ -730,9 +730,9 @@
     },
     {
       "inputs": [
-        ["item","hbm:item.ingot_firebrick",12],
+        ["item","hbm:item.ingot_firebrick",16],
         ["dict","plateSteel",4],
-        ["dict","Copper",4]
+        ["dict","ingotCopper",8]
       ],
       "outputs": [
         ["hbm:tile.heater_oven",1.0]
@@ -756,10 +756,10 @@
     },
     {
       "inputs": [
-        ["item","hbm:item.tank_steel",3],
+        ["item","hbm:item.tank_steel",4],
         ["dict","ntmpipeSteel",3],
-        ["dict","ingotTitanium",6],
-        ["dict","Copper",8]
+        ["dict","ingotTitanium",12],
+        ["dict","ingotCopper",8]
       ],
       "outputs": [
         ["hbm:tile.heater_oilburner",1.0]
@@ -771,7 +771,7 @@
     {
       "inputs": [
         ["dict","ingotAnyPlastic",4],
-        ["dict","Copper",8],
+        ["dict","ingotCopper",8],
         ["dict","plateSteel",8],
         ["item","hbm:item.coil_tungsten",8],
         ["item","hbm:item.circuit",1,8]
@@ -857,10 +857,10 @@
     },
     {
       "inputs": [
-        ["dict","plateSteel",12],
+        ["dict","plateSteel",16],
         ["dict","ingotBeryllium",6],
         ["dict","ingotCopper",8],
-        ["item","hbm:item.coil_gold",8],
+        ["item","hbm:item.coil_gold",16],
         ["item","hbm:item.gear_large",1,1]
       ],
       "outputs": [
@@ -1242,14 +1242,14 @@
     },
     {
       "inputs": [
-        ["dict","plateAdvancedAlloy",2],
+        ["dict","plateAdvancedAlloy",4],
         ["item","hbm:item.plate_armor_titanium"],
         ["dict","wireFineTungsten",8]
       ],
       "outputs": [
         ["hbm:item.plate_armor_hev",1.0]
       ],
-      "tierLower": 3,
+      "tierLower": 4,
       "tierUpper": -1,
       "overlay": "CONSTRUCTION"
     },
@@ -2088,6 +2088,17 @@
     },
     {
       "inputs": [
+        ["item","hbm:tile.deco_rusty_steel",8]
+      ],
+      "outputs": [
+        ["hbm:item.ingot_steel",1.0]
+      ],
+      "tierLower": 1,
+      "tierUpper": -1,
+      "overlay": "RECYCLING"
+    },
+    {
+      "inputs": [
         ["item","hbm:tile.deco_lead",4]
       ],
       "outputs": [
@@ -2469,7 +2480,7 @@
       ],
       "outputs": [
         ["hbm:tile.rbmk_blank",1.0],
-        ["hbm:item.ingot_boron",4,1.0]
+        ["hbm:item.ingot_boron",8,1.0]
       ],
       "tierLower": 4,
       "tierUpper": -1,

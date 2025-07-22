@@ -24,7 +24,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "When you right click the machine template you\u0027ll be greeted by the option to make a plethora of machine templates, Fluid ID filters, press stamps and siren stamps (???).\n\nyou need to have certain ingredients in your inventory to make each of these. you can see these in the tooltip of the machine template.\n\nMachine template \u003d Paper + dye\nFluid Id\u0027s \u003d iron plate + dye\nPress stamp \u003d Flat stamp of appropriate material\nSiren tracks \u003d insulator + steel plate\n"
+      "desc:8": "When you right click the machine template you\u0027ll be greeted by the option to make Fluid ID filters, press stamps and siren stamps (who?).\n\nyou need to have certain ingredients in your inventory to make each of these. you can see these in the tooltip of the machine template.\n\nFluid Id\u0027s \u003d iron plate + dye\nPress stamp \u003d Flat stamp of appropriate material\nSiren tracks \u003d insulator + steel plate\n"
     }
   },
   "tasks:9": {
