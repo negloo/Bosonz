@@ -1,0 +1,86 @@
+{
+  "questIDHigh:4": 379471674040533957,
+  "preRequisites:9": {},
+  "questIDLow:4": -8271236729864112173,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "hbm:tile.mine_ap",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "mines",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Once you place them you should hear a Bip indicating that they have been armed. They will detonate on proximity with creatures and player. Do not break them as they will explode. Use the defusing cutter to pick them back up. You can also use the detonator to blow them up."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "hbm:tile.mine_ap",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "hbm:tile.mine_shrap",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "hbm:item.defuser",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "hbm:tile.mine_ap",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

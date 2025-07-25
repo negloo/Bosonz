@@ -24,9 +24,31 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "No Description"
+      "desc:8": "The FEL melts most non-concrete low-level blocks. If you can place it in a spot where you can pick it back up it could be used to pierce holes in an enemy base."
     }
   },
-  "tasks:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "hbm:tile.machine_fel",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
   "rewards:9": {}
 }

@@ -1,0 +1,50 @@
+{
+  "questIDHigh:4": 3272455801491898755,
+  "preRequisites:9": {},
+  "questIDLow:4": -5601349870765517362,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "hbm:tile.machine_siren",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "sirens",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Sirens can be opened by right-clicking on them then you can insert a siren track which can be made using the template folder. When a siren get powered by redstone the sound will either play once or will loop depending on the category. The sound will play with a radius equal to the volume of the selected track.\n\nYou can disable or lower their sound using the noteblock volume slider.\n\nHere are some tracks I recommend for griefing:\n\n- AMS siren (god awful but low range)\n\n- Beep siren (high pitched)\n\n- Missile silo (very loud and good range)\n\n- Air raid (one of the best)\n\n- EAS screech"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "hbm:tile.machine_siren",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

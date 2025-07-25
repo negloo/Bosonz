@@ -181,6 +181,16 @@ recipes.addShapeless(<hbm:item.canteen_vodka>,
 [<minecraft:potato>,<hbm:item.plate_cast:42>]
 );
 
+#Since we do want to target players, The turret chip should be available earlier so that your team doesnt get shot by the turrets.
+#recipes.removeShaped(<hbm:item.turret_chip>.withTag({}));
+recipes.addShaped(<hbm:item.turret_chip>.withTag({}),
+[[<ore:wireFineGold>,<ore:wireFineGold>,null],
+[<hbm:item.circuit:8>,<ore:AnyPlastic>,null],
+[<ore:wireFineGold>,<ore:wireFineGold>,null]]
+);
+#recipe above doesnt seem to work. This is probably because of the metadata. For now put the circuit in the oven.
+furnace.addRecipe(<hbm:item.turret_chip>.withTag({}),<hbm:item.circuit:8>);
+furnace.addRecipe(<hbm:item.circuit:8>,<hbm:item.turret_chip>.withTag({}));
 
 #template
 #recipes.removeShaped();

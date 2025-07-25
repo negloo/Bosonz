@@ -1,6 +1,17 @@
 {
   "recipes": [
     {
+      "input": ["SLOP",1000],
+      "output1": ["MERCURY",250],
+      "output2": ["NONE",0],
+      "byproducts": [
+        ["hbm:item.niter",2],
+        ["hbm:item.powder_limestone",2],
+        ["hbm:item.sulfur"]
+      ],
+      "duration": 20
+    },
+    {
       "input": ["POTASSIUM_CHLORIDE",250],
       "output1": ["CHLORINE",125],
       "output2": ["NONE",0],
@@ -8,6 +19,12 @@
         ["hbm:item.dust"]
       ],
       "duration": 20
+    },
+    {
+      "input": ["WATER",2000],
+      "output1": ["HYDROGEN",200],
+      "output2": ["OXYGEN",200],
+      "duration": 10
     },
     {
       "input": ["VITRIOL",1000],
@@ -18,28 +35,6 @@
         ["hbm:item.nugget_mercury"]
       ],
       "duration": 20
-    },
-    {
-      "input": ["CALCIUM_CHLORIDE",250],
-      "output1": ["CHLORINE",125],
-      "output2": ["CALCIUM_SOLUTION",125],
-      "duration": 20
-    },
-    {
-      "input": ["HEAVYWATER",2000],
-      "output1": ["DEUTERIUM",200],
-      "output2": ["OXYGEN",200],
-      "duration": 10
-    },
-    {
-      "input": ["ALUMINA",200],
-      "output1": ["CARBONDIOXIDE",100],
-      "output2": ["NONE",0],
-      "byproducts": [
-        ["hbm:item.powder_aluminium",7],
-        ["hbm:item.fluorite",2]
-      ],
-      "duration": 40
     },
     {
       "input": ["REDMUD",450],
@@ -53,21 +48,26 @@
       "duration": 20
     },
     {
-      "input": ["WATER",2000],
-      "output1": ["HYDROGEN",200],
-      "output2": ["OXYGEN",200],
-      "duration": 10
-    },
-    {
-      "input": ["SLOP",1000],
-      "output1": ["MERCURY",250],
+      "input": ["ALUMINA",200],
+      "output1": ["CARBONDIOXIDE",100],
       "output2": ["NONE",0],
       "byproducts": [
-        ["hbm:item.niter",2],
-        ["hbm:item.powder_limestone",2],
-        ["hbm:item.sulfur"]
+        ["hbm:item.powder_aluminium",7],
+        ["hbm:item.fluorite",2]
       ],
+      "duration": 40
+    },
+    {
+      "input": ["CALCIUM_CHLORIDE",250],
+      "output1": ["CHLORINE",125],
+      "output2": ["CALCIUM_SOLUTION",125],
       "duration": 20
+    },
+    {
+      "input": ["HEAVYWATER",2000],
+      "output1": ["DEUTERIUM",200],
+      "output2": ["OXYGEN",200],
+      "duration": 10
     }
   ]
 }

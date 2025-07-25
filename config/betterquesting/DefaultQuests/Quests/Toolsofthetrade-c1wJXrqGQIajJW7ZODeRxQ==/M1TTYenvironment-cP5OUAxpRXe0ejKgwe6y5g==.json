@@ -1,6 +1,11 @@
 {
   "questIDHigh:4": 8142031282045011319,
-  "preRequisites:9": {},
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -2634813512354937415,
+      "questIDLow:4": -7325842300527805176
+    }
+  },
   "questIDLow:4": -5441981533694020890,
   "properties:10": {
     "betterquesting:10": {
