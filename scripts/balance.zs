@@ -192,6 +192,24 @@ recipes.addShaped(<hbm:item.turret_chip>.withTag({}),
 furnace.addRecipe(<hbm:item.turret_chip>.withTag({}),<hbm:item.circuit:8>);
 furnace.addRecipe(<hbm:item.circuit:8>,<hbm:item.turret_chip>.withTag({}));
 
+#flame war is too easy
+recipes.removeShaped(<hbm:tile.flame_war>);
+recipes.addShaped(<hbm:tile.flame_war>,
+[[<ore:plankWood>,<hbm:item.flame_conspiracy>,<ore:plankWood>],
+[<hbm:item.flame_pony>,<hbm:tile.semtex>,<hbm:item.flame_opinion>],
+[<ore:plankWood>,<hbm:item.flame_politics>,<ore:plankWood>]]
+);
+
+#emp bomb is way too cheap to make and a bit too early i think
+recipes.removeShaped(<hbm:tile.emp_bomb>);
+recipes.addShaped(<hbm:tile.emp_bomb>,
+[[<ore:plateLead>,<hbm:item.magnetron>,<ore:plateLead>],
+[<ore:nuggetSchrabidium>,<hbm:item.circuit:9>,<ore:nuggetSchrabidium>],
+[<ore:plateLead>,<hbm:item.magnetron>,<ore:plateLead>]]
+);
+
+
+
 #template
 #recipes.removeShaped();
 #recipes.addShaped(,

@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": -8946025345449310778,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 671454550775711318,
+      "questIDLow:4": -4862122417273137411
+    }
+  },
+  "questIDLow:4": -8687057168230811152,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "hbm:tile.machine_zirnox",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "ZIRNOXing",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The ZIRNOX is a pretty dangerous reactor. This is usually a downside but it can be harvested to irradiate zones. Just place a zirnox put any fuel rod inside and wait. It\u0027ll eventually blow up and severaly irradiate it\u0027s location. The strenght of the explosion and radiation does not depend on it\u0027s content as far as I know."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

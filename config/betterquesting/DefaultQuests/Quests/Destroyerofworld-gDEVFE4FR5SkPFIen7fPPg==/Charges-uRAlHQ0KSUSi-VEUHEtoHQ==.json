@@ -1,25 +1,21 @@
 {
-  "questIDHigh:4": 5723982110009018432,
+  "questIDHigh:4": -5111544770362455740,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 130309580005393544,
-      "questIDLow:4": -4888052544075461551
-    },
-    "1:10": {
-      "questIDHigh:4": 671454550775711318,
-      "questIDLow:4": -4862122417273137411
+      "questIDHigh:4": 483515526346000942,
+      "questIDLow:4": -6131215663030599101
     }
   },
-  "questIDLow:4": -5091787657874579954,
+  "questIDLow:4": -6703237423548372963,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL",
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "hbm:item.nugget_technetium",
+        "id:8": "hbm:tile.charge_c4",
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": ""
@@ -27,13 +23,13 @@
       "snd_update:8": "random.levelup",
       "repeatTime:3": -1,
       "globalShare:1": 0,
-      "questLogic:8": "OR",
+      "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "technetium",
+      "name:8": "Charges",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Put your spent fuel into cooling barrels surrounded by water. then wait and centrifuge to get technetium.\n\nIf you feel like getting spent fuel is taking too long you can go meltdown a Zirnox pretty far away from your base and farm meltdown elementals for spent fuel rods. Do be careful as this method is very dangerous."
+      "desc:8": "destroys dense stone (BR 60). The semtex charge is weaker."
     }
   },
   "tasks:9": {
@@ -46,13 +42,13 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "hbm:tile.machine_waste_drum",
+          "id:8": "hbm:tile.charge_c4",
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "partialMatch:1": 1,
@@ -63,7 +59,7 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "hbm:item.ingot_tcalloy",
+          "id:8": "hbm:tile.charge_semtex",
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""
@@ -78,8 +74,8 @@
       "index:3": 0,
       "rewards:9": {
         "0:10": {
-          "id:8": "hbm:item.ingot_tcalloy",
-          "Count:3": 4,
+          "id:8": "hbm:item.cap_nuka",
+          "Count:3": 20,
           "Damage:2": 0,
           "OreDict:8": ""
         }

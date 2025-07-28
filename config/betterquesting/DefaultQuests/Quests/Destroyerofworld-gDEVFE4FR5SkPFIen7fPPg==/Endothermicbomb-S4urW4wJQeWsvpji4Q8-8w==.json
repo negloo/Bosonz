@@ -1,12 +1,16 @@
 {
-  "questIDHigh:4": -1038427895436392099,
+  "questIDHigh:4": 5443632984287166949,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -7441466930660687795,
-      "questIDLow:4": -6459685121549112794
+      "questIDHigh:4": 991889422331233174,
+      "questIDLow:4": -7998098121161967164
+    },
+    "1:10": {
+      "questIDHigh:4": 483515526346000942,
+      "questIDLow:4": -6131215663030599101
     }
   },
-  "questIDLow:4": -7719365123255019138,
+  "questIDLow:4": -5999189553405018381,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -15,7 +19,7 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "hbm:item.ingot_niobium",
+        "id:8": "hbm:tile.therm_endo",
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": ""
@@ -25,11 +29,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "niobium",
+      "name:8": "Endothermic bomb",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "you are going to need a bit of niobium now.\nYou can get some by centrifuging rare earth chunks. If you want to have an actual good source you\u0027ll need to purify some coltan (look for the coltan quest in the brave new world tab).\nYou can also take a fat walk to a NITAN chest if you want."
+      "desc:8": "Endothermic bombs modify some natural blocks, create some ice and apply slowness 3, mining fatigue 3 and weakness to those in the radius when activated. A zone that gives slowness 3 is also created for some time.\n\nI dont know how you would really use this... It\u0027s countered by a bucket of milk..."
     }
   },
   "tasks:9": {
@@ -42,8 +46,8 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "hbm:item.ingot_niobium",
-          "Count:3": 2,
+          "id:8": "hbm:tile.therm_endo",
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""
         }
@@ -57,8 +61,8 @@
       "index:3": 0,
       "rewards:9": {
         "0:10": {
-          "id:8": "hbm:item.ingot_niobium",
-          "Count:3": 2,
+          "id:8": "hbm:item.cap_nuka",
+          "Count:3": 30,
           "Damage:2": 0,
           "OreDict:8": ""
         }

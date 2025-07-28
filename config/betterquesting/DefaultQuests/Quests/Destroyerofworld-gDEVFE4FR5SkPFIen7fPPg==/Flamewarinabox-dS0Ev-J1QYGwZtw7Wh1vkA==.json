@@ -1,12 +1,12 @@
 {
-  "questIDHigh:4": -1038427895436392099,
+  "questIDHigh:4": 8443410098574147969,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -7441466930660687795,
-      "questIDLow:4": -6459685121549112794
+      "questIDHigh:4": 483515526346000942,
+      "questIDLow:4": -6131215663030599101
     }
   },
-  "questIDLow:4": -7719365123255019138,
+  "questIDLow:4": -5735654927936688240,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -15,7 +15,7 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "hbm:item.ingot_niobium",
+        "id:8": "hbm:tile.flame_war",
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": ""
@@ -25,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "niobium",
+      "name:8": "Flame war in a box",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "you are going to need a bit of niobium now.\nYou can get some by centrifuging rare earth chunks. If you want to have an actual good source you\u0027ll need to purify some coltan (look for the coltan quest in the brave new world tab).\nYou can also take a fat walk to a NITAN chest if you want."
+      "desc:8": "Big explosion so loud that it turns down my volume.\n\nBreaks dense stone (BR 60) at very close range."
     }
   },
   "tasks:9": {
@@ -42,8 +42,8 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "hbm:item.ingot_niobium",
-          "Count:3": 2,
+          "id:8": "hbm:tile.flame_war",
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""
         }
@@ -57,8 +57,8 @@
       "index:3": 0,
       "rewards:9": {
         "0:10": {
-          "id:8": "hbm:item.ingot_niobium",
-          "Count:3": 2,
+          "id:8": "hbm:item.cap_nuka",
+          "Count:3": 4,
           "Damage:2": 0,
           "OreDict:8": ""
         }

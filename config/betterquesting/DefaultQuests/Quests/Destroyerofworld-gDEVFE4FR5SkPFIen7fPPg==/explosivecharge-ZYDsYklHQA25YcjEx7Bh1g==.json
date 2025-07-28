@@ -1,7 +1,12 @@
 {
-  "questIDHigh:4": -3722628677002639642,
-  "preRequisites:9": {},
-  "questIDLow:4": -6528590365914963368,
+  "questIDHigh:4": 7314105701730041869,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 483515526346000942,
+      "questIDLow:4": -6131215663030599101
+    }
+  },
+  "questIDLow:4": -5088565356462579242,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -10,7 +15,7 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "hbm:tile.machine_fel",
+        "id:8": "hbm:tile.det_charge",
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": ""
@@ -20,28 +25,24 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "FELling",
+      "name:8": "explosive charge",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "The FEL melts most non-concrete low-level blocks. If you can place it in a spot where you can pick it back up it could be used to pierce holes in an enemy base."
+      "desc:8": "Explosive charges do a lot of damage, are cheap and destroys a lot of blocks.\n\nThey have a hard time breaking blast resistant blocks. They can barely break dense stone (DR 60)."
     }
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
-    },
-    "1:10": {
       "partialMatch:1": 1,
       "autoConsume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 1,
+      "index:3": 0,
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "hbm:tile.machine_fel",
+          "id:8": "hbm:tile.det_charge",
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""
@@ -50,5 +51,18 @@
       "taskID:8": "bq_standard:retrieval"
     }
   },
-  "rewards:9": {}
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "hbm:tile.det_charge",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
 }
